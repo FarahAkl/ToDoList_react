@@ -65,9 +65,9 @@ function Todolist() {
         </button>
         <button onClick={toggleTheme} className="theme-btn">
           {theme === "light" ? (
-            <FontAwesomeIcon icon={faSun} />
-          ) : (
             <FontAwesomeIcon icon={faMoon} />
+          ) : (
+            <FontAwesomeIcon icon={faSun} />
           )}
         </button>
       </div>
